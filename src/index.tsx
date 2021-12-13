@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom'
+import { App } from './App'
 
 ReactDOM.render(
   <div>
     hoge
-    <h1>hogehoge</h1>
+    <App />
   </div>,
   document.getElementById('app')
 )
